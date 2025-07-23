@@ -11,7 +11,7 @@ Proje kapsamında aşağıdaki CSV dosyaları kullanılmıştır:
 
 - accidents_2005_to_2007.csv
 - accidents_2009_to_2011.csv
--accidents_2012_to_2014.csv
+- accidents_2012_to_2014.csv
 
 Bu veri setleri yıllara göre ayrılmıştır ve analiz için öncelikle birleştirilerek tek bir kapsamlı veri tabanı oluşturulmuştur.
 
