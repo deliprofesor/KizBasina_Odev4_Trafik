@@ -14,6 +14,8 @@ Proje kapsamında aşağıdaki CSV dosyaları kullanılmıştır:
 - accidents_2012_to_2014.csv
 
 Bu veri setleri yıllara göre ayrılmıştır ve analiz için öncelikle birleştirilerek tek bir kapsamlı veri tabanı oluşturulmuştur.
+Veri Setleri: https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales 
+
 
 ## Veri Ön İşleme ve Temizleme
 
