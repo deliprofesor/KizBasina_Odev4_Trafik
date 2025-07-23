@@ -138,6 +138,7 @@ Aşağıdaki grafik, modelin tahmin ettiği aylık kaza sayısı ve zaman içind
 
 <img width="903" height="625" alt="image" src="https://github.com/user-attachments/assets/85e94f0b-6c4d-4833-8da3-9adf5f0b45db" />
 
+# 4. Kırsal ve kentsel alanlar nasıl farklılaştı?
 
 ### Kentsel ve Kırsal Alanlarda Kaza Şiddeti
 
