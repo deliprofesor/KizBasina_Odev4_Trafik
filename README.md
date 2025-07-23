@@ -1,5 +1,31 @@
-# Trafik 
+# Trafik Kazası Analizi ve Tahmini Projesi
 
+<img width="1097" height="617" alt="image" src="https://github.com/user-attachments/assets/fbfbcfba-a146-4448-9301-ff7cf0d3f7f7" />
+
+Bu proje, İngiltere’de 2005-2014 yılları arasında meydana gelen trafik kazalarına ait kapsamlı bir veri seti üzerinde gerçekleştirilmiştir. Amaç, trafik kazalarının yıllara, zamana, hava ve yol koşullarına göre nasıl değiştiğini incelemek, kaza şiddetini etkileyen faktörleri belirlemek ve zaman içinde kaza oranlarını tahmin etmektir. Ayrıca kırsal ve kentsel alanlar arasındaki kaza farklılıkları analiz edilmiştir.
+
+
+## Kullanılan Veri Setleri
+
+Proje kapsamında aşağıdaki CSV dosyaları kullanılmıştır:
+
+- accidents_2005_to_2007.csv
+- accidents_2009_to_2011.csv
+-accidents_2012_to_2014.csv
+
+Bu veri setleri yıllara göre ayrılmıştır ve analiz için öncelikle birleştirilerek tek bir kapsamlı veri tabanı oluşturulmuştur.
+
+## Veri Ön İşleme ve Temizleme
+
+Veri birleştirme: Üç farklı CSV dosyasındaki kayıtlar, ortak sütunlar kullanılarak birleştirilmiştir.
+
+Eksik değer analizi: Yüksek oranda eksik veri içeren sütunlar çıkarılmış, kritik sütunlardaki eksikler ise uygun yöntemlerle tamamlanmıştır.
+
+Aykırı değerlerin tespiti: Özellikle araç sayısı ve yaralanma sayısı gibi sütunlardaki anormal değerler analiz edilmiştir.
+
+Zaman bilgisi dönüştürme: Tarih ve saat verileri datetime formatına çevrilerek zaman serisi analizine uygun hale getirilmiştir.
+
+Yeni değişken oluşturma: Saat, gün, yıl gibi yeni zaman bileşenleri çıkarılmıştır.
 
 
 # 1. Trafik akışının değişmesi kazaları nasıl etkiler?
