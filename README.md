@@ -113,7 +113,6 @@ Kazaların çoğunluğu hafif şiddette olup, ciddi ve ölümcül kazalar daha a
 - Kentsel alanlarda kaza sayısının daha fazla olması, yoğun trafik ve yol koşullarının etkisini göstermektedir.
 
 
-
 ## Kaza Şiddeti ve Faktörler Arasındaki İstatistiksel İlişki
 
 Yapılan Ki-Kare testleri sonucunda aşağıdaki kategorik değişkenlerin kaza şiddeti (Accident_Severity) üzerinde **istatistiksel olarak anlamlı** etkisi olduğu bulunmuştur (p < 0.05):
@@ -142,7 +141,6 @@ Aşağıdaki grafik, modelin tahmin ettiği aylık kaza sayısı ve zaman içind
 
 ### Kentsel ve Kırsal Alanlarda Kaza Şiddeti
 
-
 <img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/f71d6134-15e4-4055-bca5-d0a5defe1988" />
 
 Kentsel alanlarda (Urban_or_Rural_Area=1) toplam 972,007 kaza yaşanmıştır. Bunların 6,943'ü hafif, 119,632'si orta şiddette, 845,432'si ise ciddi şiddette kazalardır.  
@@ -150,9 +148,7 @@ Kırsal alanlarda (Urban_or_Rural_Area=2) ise toplam 532,011 kaza yaşanmış, 1
 Kentsel alanlarda kaza sayısı daha yüksek olmakla birlikte, her iki bölgede de ciddi şiddette kazaların oranı oldukça fazladır.
 
 
-
 ### Kentsel ve Kırsal Alanlarda Saat Bazlı Kaza Sayıları
-
 
 <img width="1051" height="541" alt="image" src="https://github.com/user-attachments/assets/d6d9cdeb-9c9c-4f9f-9569-06cf23f8cc64" />
 
