@@ -1,4 +1,4 @@
-
+# Trafik 
 
 
 
@@ -97,3 +97,38 @@ Yapılan Ki-Kare testleri sonucunda aşağıdaki kategorik değişkenlerin kaza 
 | Urban_or_Rural_Area     | 11591.73         | 0.0000   | Kırsal/Kentsel alan ile kaza şiddeti arasında anlamlı ilişki var.|
 
 Bu bulgular, hava koşulları, yol tipi ve kırsal-kentsel alan farklarının kaza şiddeti üzerinde önemli etkileri olduğunu göstermektedir.
+
+
+# 3. Zaman İçinde Kaza Oranlarını Tahmin Edebilir Miyiz?
+Zaman serisi analizi kullanarak, geçmiş verilere dayanarak gelecekteki kaza sayısını tahmin etmek mümkündür. Bu amaçla, aylık kaza sayıları hesaplanmış ve Facebook Prophet modeli ile tahmin yapılmıştır.
+
+Model, aylık kaza sayılarını öğrenerek gelecekteki 12 ay için tahminler üretmiştir. Bu yöntem sayesinde, kaza oranlarının mevsimsellik, trend gibi bileşenleri yakalanabilir ve trafik güvenliği stratejileri planlanabilir.
+
+Aşağıdaki grafik, modelin tahmin ettiği aylık kaza sayısı ve zaman içindeki değişimini göstermektedir. Ayrıca bileşen grafikleri ile trend ve mevsimsel etkiler analiz edilmiştir.
+
+<img width="1000" height="603" alt="image" src="https://github.com/user-attachments/assets/57d15ce6-36fe-4a7e-8fcd-260fecee7cc3" />
+
+<img width="903" height="625" alt="image" src="https://github.com/user-attachments/assets/85e94f0b-6c4d-4833-8da3-9adf5f0b45db" />
+
+
+### Kentsel ve Kırsal Alanlarda Kaza Şiddeti
+
+
+<img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/f71d6134-15e4-4055-bca5-d0a5defe1988" />
+
+Kentsel alanlarda (Urban_or_Rural_Area=1) toplam 972,007 kaza yaşanmıştır. Bunların 6,943'ü hafif, 119,632'si orta şiddette, 845,432'si ise ciddi şiddette kazalardır.  
+Kırsal alanlarda (Urban_or_Rural_Area=2) ise toplam 532,011 kaza yaşanmış, 12,498 hafif, 84,855 orta ve 434,658 ciddi şiddette kaza gerçekleşmiştir.  
+Kentsel alanlarda kaza sayısı daha yüksek olmakla birlikte, her iki bölgede de ciddi şiddette kazaların oranı oldukça fazladır.
+
+
+
+### Kentsel ve Kırsal Alanlarda Saat Bazlı Kaza Sayıları
+
+
+<img width="1051" height="541" alt="image" src="https://github.com/user-attachments/assets/d6d9cdeb-9c9c-4f9f-9569-06cf23f8cc64" />
+
+Saat bazında incelendiğinde, kentsel alanlarda gece yarısı (00:00) saatlerinde 14,716, kırsal alanlarda ise 8,687 kadar kaza gerçekleşmiştir.  
+Her iki bölgede de gece ve sabah erken saatlerde kaza sayılarının daha düşük olduğu, gündüz saatlerinde ise arttığı gözlemlenmektedir.  
+Bu veriler, kaza riskinin saat dilimlerine ve alan tipine göre değişiklik gösterdiğini ortaya koymaktadır.
+
+
