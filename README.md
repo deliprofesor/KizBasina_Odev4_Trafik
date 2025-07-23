@@ -1,13 +1,34 @@
-# Trafik Kazası Analizi Özeti
 
 
 
 
+# 1. Trafik akışının değişmesi kazaları nasıl etkiler?
+
+## Trafik Akışının Değişmesinin Kazalar Üzerindeki Etkisi
+
+Yaptığımız analizlerde, trafik akışındaki değişimlerin kaza sayıları üzerinde belirgin etkileri olduğu gözlemlenmiştir. Özellikle aşağıdaki noktalar öne çıkmaktadır:
+
+- **Yıllara Göre Kaza Sayısı:**  
+  2005-2014 yılları arasında kaza sayıları genel olarak dalgalı bir seyir izlemiştir. Trafik hacmindeki artış veya azalış, kaza sayısına doğrudan yansımaktadır. Örneğin yoğun trafik dönemlerinde kaza sayılarında artış gözlenmektedir.
+
+- **Saat Bazlı Kaza Dağılımı:**  
+  Trafik akışının yoğun olduğu sabah ve akşam saatlerinde (özellikle 07:00-10:00 ve 15:00-18:00 arası) kaza sayılarının en yüksek seviyede olduğu tespit edilmiştir. Bu da trafik yoğunluğunun kaza riskini artırdığını göstermektedir.
+
+- **Hız Limitleri ve Yol Tipi:**  
+  Trafik akışının hızlı ve yoğun olduğu çift yönlü yollar ve yüksek hız limitlerine sahip bölgelerde farklı kaza profilleri görülmektedir. Yavaş ve yoğun trafiğin olduğu düşük hız limitli yollarda ise kaza sayısı yüksek ancak genellikle daha hafif kazalar görülmektedir.
+
+- **Kentsel ve Kırsal Alanlar:**  
+  Kentsel alanlarda yoğun trafik akışı nedeniyle kaza sayıları daha fazladır. Kırsal alanlarda ise trafik akışı daha seyrek olmasına rağmen, yüksek hızların etkisiyle daha ciddi kazalar yaşanabilmektedir.
+
+**Özetle, trafik akışındaki artışlar genellikle kaza sayılarında artışa sebep olurken, akışın yoğunluğu ve yol koşulları kaza şiddetini de etkileyebilmektedir. Trafik yönetimi ve akış kontrolü, kaza riskinin azaltılması için kritik öneme sahiptir.**
 
 
 
 
-2. Kaza oranlarını ne artırır?
+   
+# 2. Kaza oranlarını ne artırır? 
+
+## Trafik Kazası Analizi Özeti
 
 Bu veri setinde 2005-2014 yılları arasında gerçekleşen toplam **1.504.150** trafik kazası yer almaktadır. Analizimizde kazaların şiddeti, hava koşulları, yol tipi, hız limiti, günün saati ve kırsal/kentsel alan farkları incelenmiştir.
 
@@ -49,6 +70,16 @@ Kazaların çoğunluğu hafif şiddette olup, ciddi ve ölümcül kazalar daha a
 - Kentsel alanlarda **972.007** kaza, kırsal alanlarda ise **532.011** kaza kaydedilmiştir.  
 - Kentsel alanlarda kaza sayısının daha fazla olması, yoğun trafik ve yol koşullarının etkisini göstermektedir.
 
----
 
-Bu özet, trafik kazalarının nedenlerini ve dağılımını anlamak için temel bir bakış sağlamaktadır. İlerleyen analizlerde bu faktörlerin kaza şiddetine etkisi ve zaman içindeki değişimleri daha detaylı incelemeyi hedeflemekteyiz.
+
+## Kaza Şiddeti ve Faktörler Arasındaki İstatistiksel İlişki
+
+Yapılan Ki-Kare testleri sonucunda aşağıdaki kategorik değişkenlerin kaza şiddeti (Accident_Severity) üzerinde **istatistiksel olarak anlamlı** etkisi olduğu bulunmuştur (p < 0.05):
+
+| Değişken                | Chi2 İstatistiği | p-değeri | Sonuç                                |
+|-------------------------|------------------|----------|------------------------------------|
+| Weather_Conditions      | 1692.98          | 0.0000   | Weather Conditions ile kaza şiddeti arasında anlamlı ilişki var. |
+| Road_Type               | 4986.63          | 0.0000   | Road Type ile kaza şiddeti arasında anlamlı ilişki var.          |
+| Urban_or_Rural_Area     | 11591.73         | 0.0000   | Kırsal/Kentsel alan ile kaza şiddeti arasında anlamlı ilişki var.|
+
+Bu bulgular, hava koşulları, yol tipi ve kırsal-kentsel alan farklarının kaza şiddeti üzerinde önemli etkileri olduğunu göstermektedir.
