@@ -8,21 +8,35 @@
 
 Yaptığımız analizlerde, trafik akışındaki değişimlerin kaza sayıları üzerinde belirgin etkileri olduğu gözlemlenmiştir. Özellikle aşağıdaki noktalar öne çıkmaktadır:
 
-- **Yıllara Göre Kaza Sayısı:**  
-  2005-2014 yılları arasında kaza sayıları genel olarak dalgalı bir seyir izlemiştir. Trafik hacmindeki artış veya azalış, kaza sayısına doğrudan yansımaktadır. Örneğin yoğun trafik dönemlerinde kaza sayılarında artış gözlenmektedir.
+<img width="948" height="460" alt="image" src="https://github.com/user-attachments/assets/ee3e2267-be7a-4116-a49a-7879c8658611" />
 
-- **Saat Bazlı Kaza Dağılımı:**  
-  Trafik akışının yoğun olduğu sabah ve akşam saatlerinde (özellikle 07:00-10:00 ve 15:00-18:00 arası) kaza sayılarının en yüksek seviyede olduğu tespit edilmiştir. Bu da trafik yoğunluğunun kaza riskini artırdığını göstermektedir.
+- **Yıllara Göre Kaza Sayısı:**
+  
+  2005-2014 yılları arasında kaza sayılarında dalgalanmalar görülüyor. En yüksek kaza sayısı 2005 yılında (198,735) iken, sonraki yıllarda genel bir azalma trendi var. 2012 yılında ise tekrar bir artış gözleniyor. 2008 yılı verilerinin olmadığı düşünüldüğünde, bu dönemlerdeki trafik koşulları ve politikalar kaza sayılarındaki değişimlerde etkili olmuş olabilir. Kaza sayılarındaki bu iniş çıkışlar, trafik hacmindeki değişiklikler, yol güvenliği önlemleri ve araç sayısındaki değişimlerle ilişkilendirilebilir.
 
-- **Hız Limitleri ve Yol Tipi:**  
-  Trafik akışının hızlı ve yoğun olduğu çift yönlü yollar ve yüksek hız limitlerine sahip bölgelerde farklı kaza profilleri görülmektedir. Yavaş ve yoğun trafiğin olduğu düşük hız limitli yollarda ise kaza sayısı yüksek ancak genellikle daha hafif kazalar görülmektedir.
+<img width="907" height="471" alt="image" src="https://github.com/user-attachments/assets/3af3429b-6b45-4496-91cc-6a18c24288b4" />
 
-- **Kentsel ve Kırsal Alanlar:**  
-  Kentsel alanlarda yoğun trafik akışı nedeniyle kaza sayıları daha fazladır. Kırsal alanlarda ise trafik akışı daha seyrek olmasına rağmen, yüksek hızların etkisiyle daha ciddi kazalar yaşanabilmektedir.
+- **Saat Bazlı Kaza Dağılımı:**
+  
+ Kaza sayıları gün içinde belirgin bir dalgalanma gösteriyor. Gece geç saatlerde (00:00-05:00 arası) kaza sayıları nispeten düşük, sabah işe gidiş (07:00-09:00) ve akşam iş çıkışı saatlerinde (15:00-18:00) kaza sayılarında önemli artışlar var. Özellikle 8:00, 17:00 ve 16:00 saatlerinde kaza sayıları çok yüksek. Bu saatlerde trafik yoğunluğunun artması, yol kullanıcılarının strese ve yorgunluğa daha açık olması nedeniyle kaza riskini yükseltiyor. Gece geç saatlerde kaza sayısının azalması ise trafik yoğunluğunun düşmesiyle açıklanabilir.
+  
+<img width="1108" height="452" alt="image" src="https://github.com/user-attachments/assets/2b3ffbdf-d6d3-4452-a395-87e1bc63e334" />
 
-**Özetle, trafik akışındaki artışlar genellikle kaza sayılarında artışa sebep olurken, akışın yoğunluğu ve yol koşulları kaza şiddetini de etkileyebilmektedir. Trafik yönetimi ve akış kontrolü, kaza riskinin azaltılması için kritik öneme sahiptir.**
+- **Hız Limitleri ve Yol Tipi:**
+  
+En fazla kaza, 30 mph hız limitine sahip yollarda gerçekleşmiş (968,284 kaza). Bu hız limiti genellikle yerleşim alanlarında ve şehir içi yollarda kullanılır, dolayısıyla araç trafiğinin yoğun olduğu yerlerde kazalar daha sık yaşanıyor. Hız limiti arttıkça kaza sayısı azalıyor gibi görünse de, yüksek hız limitine sahip (60-70 mph) yollarda da önemli sayıda kaza gerçekleşmiş. Düşük hız limitlerinde (10-20 mph) ise kaza sayısı oldukça az, çünkü bu limitler genellikle çok sakin, az trafiğe sahip veya özel alanlar için geçerli olabilir.
 
+<img width="1106" height="448" alt="image" src="https://github.com/user-attachments/assets/ab30c6ba-d068-4353-a42c-b378702a90ad" />
 
+- **Kentsel ve Kırsal Alanlar:**
+  
+Kaza sayısının en yüksek olduğu yol tipi "Single carriageway" (tek yönlü yol) olmuş (1,126,951 kaza). Bu tür yollar genellikle dar ve trafik yoğunluğu yüksek olan kırsal veya şehir çevresi yollar olabilir. "Dual carriageway" (çift yönlü yol) ve "Roundabout" (dönel kavşak) da kaza açısından önemli yer tutuyor. Diğer yol tiplerinde ise kaza sayısı daha az.
+
+Kentsel alanlarda kaza sayısı (972,007) kırsal alanlardan (532,011) oldukça fazla. Bu, şehirlerde daha yoğun trafik ve araç sayısının etkisini gösteriyor. Ortalama kaza şiddeti açısından ise kentsel alanlar (2.86) kırsal alanlardan (2.79) biraz daha yüksek. Yani şehirlerde hem kaza sayısı hem de kaza şiddeti biraz daha fazla. Bu durum, kentsel alanlarda trafik yoğunluğunun ve karmaşıklığının artmasıyla birlikte kazaların hem sayısını hem de ciddiyetini yükselttiğini gösteriyor.
+
+## Genel Değerlendirme
+
+Veriler, trafik akışının yoğun olduğu şehir içi ve sabah-akşam saatlerinde kaza riskinin daha yüksek olduğunu ortaya koyuyor. Yerleşim yerlerindeki 30 mph hız limiti olan yollarda kazalar en çok yaşanırken, kırsal alanlarda hem kaza sayısı hem de şiddeti kentsel alanlara göre biraz daha düşük. Yol tipi ve hız limitleri kazaların oluşma biçimini etkilerken, trafik yoğunluğu kaza sayısını artıran en önemli faktörlerden biri olarak öne çıkıyor. Trafik güvenliğini artırmak için bu alanlarda özel önlemler alınması faydalı olacaktır.
 
 
    
